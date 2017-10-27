@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dmbiproject.RegController">
+    <stylesheets>
+        <URL value="@regression.css" />
+    </stylesheets>
+    <children>
+        <Label layoutY="53.0" prefHeight="53.0" prefWidth="600.0" text="Enter the price of product on Flipkart">
+            <font>
+                <Font name="Trebuchet MS" size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="flipkartprice" layoutY="106.0" prefHeight="61.0" prefWidth="600.0">
+            <font>
+                <Font name="Trebuchet MS" size="18.0" />
+            </font>
+        </TextField>
+        <Label layoutY="247.0" prefHeight="61.0" prefWidth="600.0" text="Price of product on Amazon">
+            <font>
+                <Font name="Trebuchet MS" size="18.0" />
+            </font>
+        </Label>
+        <Button fx:id="back" layoutX="8.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleButtonAction3" prefHeight="33.0" prefWidth="103.0" text="Back">
+            <font>
+                <Font name="Trebuchet MS" size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="click" layoutX="8.0" layoutY="200.0" mnemonicParsing="false" onAction="#handleButtonAction4" prefHeight="29.0" prefWidth="109.0" text="Get Price">
+            <font>
+                <Font name="Trebuchet MS" size="18.0" />
+            </font>
+        </Button>
+      <TextField fx:id="snapdealprice" editable="false" layoutY="308.0" prefHeight="68.0" prefWidth="608.0">
+         <font>
+            <Font name="Trebuchet MS" size="18.0" />
+         </font></TextField>
+    </children>
+</AnchorPane>
